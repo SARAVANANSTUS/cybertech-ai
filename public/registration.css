@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container{
+    background-color: aliceblue;
+    height: 100vh;
+    font-family: "Roboto";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-background{
+    background-color: white;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.nav-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.image{
+    height: 50px;
+    width: 50px;
+}
+
+.heading{
+    font-weight: bold;
+    font-family: "Bree Serif";
+    font-size: 50px;
+    text-align: center; 
+    padding-bottom: 10px;
+}
+
+.paragraph{
+    font-size: 16px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.form-container{
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+
+}
+
+.bottom-container{
+    text-align: center;
+
+}
+
+.bottom-container{
+    margin-top: 20px;
+}
+
+.main-form-container{
+    height: 50vh;
+    width: auto;
+    overflow-y: auto;
+    overflow-x : hidden
+}
